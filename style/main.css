@@ -695,7 +695,7 @@ opacity:0;
 
 .end-container{
   width:100%;
-  height:100vh;
+  height:120vh;
   display:grid;
   grid-template-columns: 20% 80%;
   grid-template-rows: 20% 80%;
@@ -921,7 +921,7 @@ opacity:0;
   }
 
   .end-container{
-    grid-template-columns: 5% auto;
+    grid-template-columns: 20% auto;
   }
 
   .banner{
@@ -1027,6 +1027,24 @@ opacity:0;
 }
 
 
+@media screen and (max-width: 1650px) {
+  .website{
+    font-size: 7.5rem;
+  }
+
+  .banner-content {
+    font-size: 1.2rem;
+    }
+    .banner{
+      font-size:2.4rem;
+    }
+    
+}
+
+.cont{
+  position: relative;
+
+}
 
 
 
@@ -1037,7 +1055,7 @@ opacity:0;
 
   font-family: futura-pt-bold,Geneva,sans-serif;
   font-size: 10rem;
-  height:15vh;
+  height:25vh;
 }
 
 .rw-words span{
@@ -1099,7 +1117,7 @@ opacity:0;
 
 .mobile-video{
   position: absolute;
-  top:221.5vh;
+  top:215vh;
   text-align: center;
   width:100%;
   height:100%;
